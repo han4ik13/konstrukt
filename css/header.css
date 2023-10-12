@@ -1,0 +1,42 @@
+.header {
+	background-image: url(/img/home/bg.png);
+	background-size: 1440px;
+	height: 745px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 41px 0 47px;
+}
+
+.header__logo {
+	margin: 0 auto 317px;
+}
+
+.header__title-container {
+	margin-bottom: 221px;
+	color: #FFF;
+}
+
+.header__title-container h1 {
+	text-align: center;
+	font-family: 'Bebas Neue';
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 5.709px;
+}
+
+.header__title-container p {
+	text-align: center;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.header__text {
+	color: #FFF;
+	text-align: center;
+	font-family: 'Open Sans';
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 3.7px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,61 @@
+html {
+	--container: 940px;
+	--padding-container: 10px;
+	box-sizing: border-box;
+	/* position: relative;
+	overflow-x: hidden; */
+	scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	min-width: 960px;
+	min-height: 100vh;
+	color: #48555B;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+}
+
+button {
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, p {
+	margin: 0;
+}
+
+.visually-hidden {
+	position: fixed;
+	transform: scale(0);
+}
+
+.container {
+	max-width: calc(var(--container) + var(--padding-container) * 2);
+	padding: 0;
+	margin: 0 auto;
+}

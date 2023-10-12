@@ -1,0 +1,32 @@
+.work-container {
+	max-width: 1440px;
+	width: 100%;
+	min-height: 500px;
+	background: url(/img/work/work.jpg) center no-repeat;
+	background-size: cover;
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.work__content {
+	flex-direction: column;
+	max-width: 350px;
+	text-align: center;
+}
+
+.work_title {
+	font-family: 'Open Sans';
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px; /* 120% */
+	letter-spacing: 0.15px;
+	/* margin-bottom: 35px; */
+}
+
+.work-btn {
+	margin-top: 35px;
+}
+
+
+
