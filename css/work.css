@@ -2,7 +2,7 @@
 	max-width: 1440px;
 	width: 100%;
 	min-height: 500px;
-	background: url(/img/work/work.jpg) center no-repeat;
+	background: url(../img/work/work.jpg) center no-repeat;
 	background-size: cover;
 	display:  flex;
 	justify-content: center;
