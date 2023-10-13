@@ -75,13 +75,13 @@ section {
 }
 
 .about__photo.st {
-	background: url('/img/about/about01.png');
+	background: url('../img/about/about01.png');
 }
 
 .about__photo.nd {
-	background: url('/img/about/about02.png');
+	background: url('../img/about/about02.png');
 }
 
 .about__photo.rd {
-	background: url('/img/about/about03.png');
+	background: url('../img/about/about03.png');
 }
